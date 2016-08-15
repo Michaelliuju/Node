@@ -1,0 +1,13 @@
+{
+  "name": "myapp",
+  "private": true,
+  "dependencies": {
+    "express": "*",
+    "pug": "^2.0.0-alpha6",
+    "react":"",
+    "request": "*"
+  },
+  "version": "1.0.0",
+  "main": "myapp.js",
+  "license": "ISC"
+}
