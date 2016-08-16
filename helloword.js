@@ -2,8 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res){
-//	res.send('Hello world!');
-	res.json({status:'my api is alive!'});
+	res.json('Helloworld!');
 });
 
 
@@ -20,12 +19,5 @@ app.put('/user',function(req,res){
 });
 
 app.delete('/user',function(req, res){
-	res.send('Got a DELETE request at /userOB');
+	res.send('Got a DELETE request at /user');
 });
-
-
-//app.use(express.static('public'));
-
-//app.use('/static', express.static('public');
-app.use('/res', express.static('public'));
-
