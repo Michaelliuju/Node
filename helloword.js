@@ -29,14 +29,3 @@ app.delete('/user',function(req, res){
 //app.use('/static', express.static('public');
 app.use('/res', express.static('public'));
 
-app.get('/v1/test-api', function(req,res){
-	res.json({ret:1000});
-});
-
-app.get('/v2/:id', function(req,res){
-	var test = req.params.id;
-	res.json({test: test});
-});
-
-
-
