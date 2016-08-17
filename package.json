@@ -3,8 +3,8 @@
   "private": true,
   "dependencies": {
     "express": "*",
-    "pug": "^2.0.0-alpha6",
-    "react":"",
+    "pug": "^2.0.0-beta5",
+    "react": "",
     "request": "*"
   },
   "version": "1.0.0",
