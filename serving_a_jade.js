@@ -4,7 +4,7 @@ var router = express.Router();
 
 app.set('views', './public')
 
-app.set('view engine', 'pug');
+app.set('view engine', 'jade');
 
 router.get('/public/:id', function (req, res) {
 	
